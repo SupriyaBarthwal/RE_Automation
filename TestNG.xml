@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite30Apr">
+  <test thread-count="5" name="SmokeTest">
+    <!-- <parameter name="log" value="admin"/>
+    <parameter name="pwd" value="Secret@123&&"/> -->
+    <classes>
+      <!-- This is a comment -->
+      <class name="RealEstate.test.TestREadminUser"/>
+      <class name="RealEstate.test.TestREAddNewUser"/>
+        
+    </classes>
+  </test> <!-- Smoke Test -->
+ </suite> 
